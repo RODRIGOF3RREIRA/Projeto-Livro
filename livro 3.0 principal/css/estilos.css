@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#next{
+    background-color:rgb(252, 166, 36);
+    border-radius: 9px;
+
+}
+#catalogo{
+   margin-top: 60px;
+   width: 500;
+}
+
+#topo{
+    
+  background-color:rgba(255, 187, 0, 0.842);
+ 
+ 
+   
+  
+    
+}
+
+
+
+#logo{
+      
+   
+}
+
+
+#login{
+    
+}
+
+#art{
+    margin-top: 100px;
+    height: 400px;
+   
+}
+
+#busca{
+
+    
+    margin-top: 100px;
+}
+
+
+
+#footer{
+
+    margin-top: 500px;
+    height: 250px;
+    background-color:rgba(255, 187, 0, 0.842);
+}
+
+
+
+
+#carousel{
+    margin-top: 100px;
+    
+
+
+   
+    
+}
+
+#card{
+    margin-top: 20px;
+}
+
+#body{
+      
+}
+
+
+#button1{
+    margin-top: 14px;
+}
+
+#tudo{
+   background-color: rgb(255, 255, 255); 
+}
+
+#banner{
+    height: 100px;
+}
+#busca{
+    width: 300px;
+}

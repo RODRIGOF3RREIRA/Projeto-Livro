@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
+  <title>livro</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel='stylesheet' type='text/css' media='screen' href='css/estilos.css'>
+  <!-- <script src='main.js'></script>-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+
+<body>
+
+  <div id="tudo">
+
+    <div class="container-fluid">
+      <div id="topo" class="row">
+
+
+
+        <div id="logo" class="col-6">
+
+          <a href="index.html"><img src="img/logo2.png" class="img-fluid mx-auto d-block float-sm-right  "></a>
+        </div>
+
+        <div id="login" class="col-6">
+          <a href="index.html"><img src="img/login.png" class="img-fluid mx-auto d-block float-sm-right"></a>
+        </div>
+      </div>
+      <!--#################################################################################################-->
+
+      <div class="row">
+        <div class="col">
+          <img src="img/banner4.jpg" class="img-fluid mx-auto d-block">
+        </div>
+      </div> 
+
+
+      <div class="row">
+
+
+        <div id="catalogo" class=" mx-auto d-block ">
+
+          <form class="form-inline form-fluid">
+
+            <div class="dropdown">
+              <button id="button1" class="btn btn-secondary dropdown-toggle mt-2 " type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Categoria</button>
+              <div class="dropdown-menu" aria-labelledby="button1">
+                <h3 class="dropdown-header">Mais Buscados </h3>
+                <a class="dropdown-item" href="#">Best Seller</a>
+                <a class="dropdown-item " href="#">Autor</a>
+                <a class="dropdown-item" href="#">Lançamentos</a>
+                <div class="dropdown-divider"></div>
+                <h3 class="dropdown-header">Gênero</h3>
+                <a class="dropdown-item" href="#">Fantasia e Fantasia Científica</a>
+                <a class="dropdown-item" href="#">Fábula</a>
+                <a class="dropdown-item" href="#">Horror </a>
+                <a class="dropdown-item" href="#">romance</a>
+                <a class="dropdown-item" href="#">Suspense</a>
+              </div>
+
+            </div>
+
+            <input id="busca" class="form-control p-7 w-6 mt-2 form-fluid" type="search" placeholder="Buscar...">
+
+            <!--   codigo do botao nao esta responsivo    <span class="glyphicon btn  btn-lg" onclick="botao()">&#xe003;</span> -->
+          </form>
+
+        </div>
+
+      </div>
+
+
+      <!--#################################################################################################-->
+
+
+
+
+
+
+
+
+
+
+      <div id="carousel" class="row">
+        <div class="col-lg-3 col-sm-6">
+          <h4 class="text-center">Mais Vendidos</h4>
+          <div id="controleCarousel4" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#controleCarousel2" data-slide-to="0" class="active"></li>
+              <li data-target="#controleCarousel2" data-slide-to="1"></li>
+              <li data-target="#controleCarousel2" data-slide-to="2"></li>
+            </ol>
+
+            <div  class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid mx-auto d-block w-60 " src="img/livroo1.png">
+              </div>
+
+              <div class="carousel-item">
+                <img class="img-fluid mx-auto d-block w-60" src="img/livroo2.jpg">
+              </div>
+
+              <div class="carousel-item">
+                <img class="img-fluid mx-auto d-block w-60" src="img/livroo3.jpg">
+              </div>
+
+            </div>
+
+            <a href="#controleCarousel4" class="carousel-control-prev" role="button" data-slide="prev">
+              <span id="next" class="carousel-control-prev-icon " aria-hidden="true"></span>
+              <span class="sr-only">Voltar</span>
+            </a>
+            <a href="#controleCarousel4" class="carousel-control-next" role="button" data-slide="next">
+              <span id="next" class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Avançar</span>
+            </a>
+          </div>
+
+        </div>
+
+
+
+        <div class="col-lg-3 col-sm-6">
+          <h4 class="text-center">Em Alta</h4>
+          <div id="controleCarousel3" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#controleCarousel2" data-slide-to="0" class="active"></li>
+              <li data-target="#controleCarousel2" data-slide-to="1"></li>
+              <li data-target="#controleCarousel2" data-slide-to="2"></li>
+            </ol>
+            <div  class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid mx-auto d-block w-60 " src="img/livroo1.png">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid mx-auto d-block w-60" src="img/livroo2.jpg">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid mx-auto d-block w-60" src="img/livroo3.jpg">
+              </div>
+            </div>
+            <a href="#controleCarousel3" class="carousel-control-prev" role="button" data-slide="prev">
+              <span id="next" class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Voltar</span>
+            </a>
+            <a href="#controleCarousel3" class="carousel-control-next" role="button" data-slide="next">
+              <span id="next" class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Avançar</span>
+            </a>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-sm-6">
+          <h4 class="text-center">Lançamentos</h4>
+          <div id="controleCarousel2" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#controleCarousel2" data-slide-to="0" class="active"></li>
+              <li data-target="#controleCarousel2" data-slide-to="1"></li>
+              <li data-target="#controleCarousel2" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid mx-auto d-block w-60 " src="img/livroo1.png">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid mx-auto d-block w-60" src="img/livroo2.jpg">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid mx-auto d-block w-60" src="img/livroo3.jpg">
+              </div>
+            </div>
+            <a href="#controleCarousel2" class="carousel-control-prev" role="button" data-slide="prev">
+              <span id="next" class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Voltar</span>
+            </a>
+            <a href="#controleCarousel2" class="carousel-control-next" role="button" data-slide="next">
+              <span id="next" class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Avançar</span>
+            </a>
+          </div>
+
+        </div>
+
+
+        <div class="col-lg-3 col-sm-6">
+          <h4 class="text-center text-sm">Em Promoção</h4>
+          <div id="controleCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#controleCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#controleCarousel" data-slide-to="1"></li>
+              <li data-target="#controleCarousel" data-slide-to="2"></li>
+            </ol>
+            <div  class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid mx-auto d-block w-60 " src="img/livroo1.png">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid mx-auto d-block w-60" src="img/livroo2.jpg">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid mx-auto d-block w-60" src="img/livroo3.jpg">
+              </div>
+            </div>
+            <a href="#controleCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+              <span id="next" class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Voltar</span>
+            </a>
+            <a href="#controleCarousel" class="carousel-control-next" role="button" data-slide="next">
+              <span id="next" class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Avançar</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-------------------->
+
+
+       
+
+
+    </div>
+    <!--###################################################      RODAPÉ       ######################################################################-->
+
+
+    <footer id="footer" class="container-fluid py-5">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img src="img/logo2.png" class="img-fluid mx-auto d-block "></a>
+
+        </div>
+        <div class="col-6 col-md">
+          <h5>Contato</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Linkedin</a></li>
+            <li><a class="text-muted" href="#">Facebook</a></li>
+            <li><a class="text-muted" href="#">Twitter</a></li>
+
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Equipe</h5>
+          <ul class="list-unstyled text-small">
+
+            <li><a class="text-muted" href="#">João Victor</a></li>
+            <li><a class="text-muted" href="#">Rodrigo Ferreira</a></li>
+            <li><a class="text-muted" href="#">Rhuan Vieira</a></li>
+            <li><a class="text-muted" href="#">Thiago Filipe</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-6 col-md">
+          <h5>Projeto</h5>
+          <ul class="list-unstyled text-small">
+
+            <li><a class="text-muted" href="#">Ideias</a></li>
+            <li><a class="text-muted" href="#">Quem somos</a></li>
+            <li><a class="text-muted" href="#">Livro</a></li>
+
+          </ul>
+        </div>
+
+    </footer>
+
+
+  </div>
+
+
+
+
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+  <script type="text/javascript">
+    $('.carousel').carousel({
+      interval: 30000
+    })   
+  </script>
+</body>
+
+</html>
